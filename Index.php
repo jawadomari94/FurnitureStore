@@ -99,6 +99,7 @@ body{
         </li>';
 		?>
 		
+		
 		<?php
 		if($_SESSION['User']=='')
 			echo'<li class="nav-item">
