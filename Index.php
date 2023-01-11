@@ -15,6 +15,7 @@ session_start();
 <html>
 <head>
 <title>Bootstrap CDN</title>
+<link rel="stylesheet" href="style.css">
 <meta charset = "utf-8">
 <meta name = "viewport" content = "width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.
@@ -136,7 +137,7 @@ body{
 	    <div class = "thumbnail">
 		<br>
 		<b><p class = "text-center">'.$row['Name'].'</p></b>
-	<img src = "images/'.$row['Picture'].'" class = "img-thumbnail rounded">
+	<img src = "images/'.$row['Picture'].'" class = "img-thumbnail">
 	<hr>';
 	?>
 	<script>
